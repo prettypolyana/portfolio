@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 41px;
+    width: 900px;
+}
+
+.header__group {
+    display: flex;
+    margin-left: 370px;
+    gap: 151px;
+    align-items: center;
+}
+
+.header__pic {
+    width: 50px;
+    height: 50px;
+}
+
+.header__item-img {
+    width: 30px;
+    height: 30px;
+}
+
+.header__item {
+    color: black;
+    text-decoration: none;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header__item:hover {
+    color: #b198c7;
+}
+
+.header__nav {
+    display: flex;
+    gap: 60px;
+}
+
+.header__links {
+    display: flex;
+}
+

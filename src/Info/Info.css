@@ -24,17 +24,6 @@
     font-size: 50px;
     width: 700px;
     font-weight: 300;
-    opacity: 0;
-    animation: visibility 4s forwards;
-}
-
-@keyframes visibility {
-from {
-  opacity: 0; /* Текст невидим в начале анимации */
-}
-to {
-  opacity: 1; /* Текст становится полностью видимым в конце анимации */
-}
 }
 
 .info__text-color {

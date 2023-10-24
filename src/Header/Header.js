@@ -1,6 +1,6 @@
 import './Header.css';
 
-import git from '../images/git.png';
+import git from '../images/github-image.svg';
 import tg from '../images/tg.png';
 import linkedin from '../images/linkedin.png';
 import flower from '../images/flower.png';
@@ -18,13 +18,13 @@ export default function Header() {
                     <a className='header__item' href='#'>Contacts</a>
                 </nav>
                 <nav className='header__links'>
-                    <a className='header__item' href='#'>
+                    <a href='#'>
                         <img className='header__item-img' alt='github icon' src={git}/>
                     </a>
-                    <a className='header__item' href='#'>
+                    <a href='#'>
                         <img className='header__item-img' alt='telegram icon' src={tg}/>
                     </a>
-                    <a className='header__item' href='#'>
+                    <a href='#'>
                         <img className='header__item-img' alt='linkedin icon' src={linkedin}/>
                     </a>
                 </nav>

@@ -2,12 +2,14 @@ import './App.css';
 
 import Header from './Header/Header';
 import Info from './Info/Info';
+import Stack from './Stack/Stack';
 
 function App() {
   return (
     <>
       <Header />
       <Info />
+      <Stack />
     </>
   );
 }

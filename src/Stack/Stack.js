@@ -7,8 +7,6 @@ import react from '../images/react.jpg';
 import js from '../images/js.jpg';
 import mongodb from '../images/mongodb.png';
 
-import 'animate.css';
-
 
 export default function Stack() {
     return (

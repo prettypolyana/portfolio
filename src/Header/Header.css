@@ -36,32 +36,44 @@
     padding: 1px;
     box-sizing: border-box;
     text-align: center;
+    transition: border 0.5s ease;
+    border: 1px solid transparent;
 }
   
-  .header__item:hover::before {
+  .header__item::before {
     content: '';
     position: absolute;
     width: 100px;
     height: 55px;
-    border: 1px solid #b198c7;
+    border: 1px solid transparent;
     border-radius: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(135deg);
     transform-origin: center center;
+    transition: border 0.3s ease-in;
+}
+
+.header__item:hover::before {
+    border: 1px solid #b198c7;
 }
   
-  .header__item:hover::after {
+  .header__item::after {
     content: '';
     position: absolute;
     width: 100px;
     height: 65px;
-    border: 1px solid #c598ec;
+    border: 1px solid transparent;
     border-radius: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(143deg);
     transform-origin: center center;
+    transition: border 0.3s ease-in;
+}
+
+.header__item:hover::after {
+    border: 1px solid #b198c7;
 }
 
 .header__nav {

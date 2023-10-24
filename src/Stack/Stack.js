@@ -22,7 +22,7 @@ export default function Stack() {
         <section className='stack'>
             <motion.div 
                  ref={ref}
-                 initial={{ opacity: 0, y: 20 }}
+                 initial={{ opacity: 0, y: 0 }}
                  animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 70 }}
                  transition={{ duration: 3 }}
             >

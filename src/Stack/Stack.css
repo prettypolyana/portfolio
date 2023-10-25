@@ -1,7 +1,8 @@
 .stack {
     display: flex;
     flex-direction: column;
-    margin: 0 120px;
+    width: 850px;
+    margin: 0 auto;
     text-align: center;
 }
 
